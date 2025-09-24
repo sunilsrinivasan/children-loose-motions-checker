@@ -111,6 +111,6 @@ const chatbotSteps = {
   // Branch: 1–3y (Steps 21–24)
   step21: { message: "Any additional symptom like incessant cry, pain on touching ear, rash, or tiredness?", options: [ { label: "Yes", next: "consultDoctor" }, { label: "No", next: "step22" } ] },
   step22: { message: "Is your baby voiding urine?", options: [ { label: "Yes", next: "step23" }, { label: "No", next: "observeUrine22" } ] },
-  observeUrine22: { message: "Observe 12 h; if tired/not voided, consult doctor. ORS sips + zinc 1 ml daily for 2 w + cream.", options: [ { label: "Restart", next: "step1" } ] },
+  observeUrine22: { message: "Observe 12 h; if tired/not voided, consult doctor. ORS sips + zinc 1 ml daily for 2 w + cream.", options: [ { label: "Restart", next: "step1" } ] }
   step23: { message: "Is your child passing blood in the stools?"
 ]
