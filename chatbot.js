@@ -104,7 +104,8 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot: {
-    message: "Consult vomiting chatbot. For loose motions: ZIORAL or ZN20 drops 0.5 ml (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day. Continue feeds.",
+    message: "Consult vomiting chatbot. For loose motions: For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  0.5 ml  (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+   . Continue feeds.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step11: {
@@ -122,7 +123,7 @@ const chatbotSteps = {
     ]
   },
   observe12Advanced: {
-    message: "Consult doctor if tired/not voided. Otherwise observe 12h and monitor urine. Continue ORS and zinc drops + cream.",
+    message: "Consult doctor if tired/not voided. Otherwise observe 12h and monitor urine. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  0.5 ml  (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step13: {
@@ -133,7 +134,8 @@ const chatbotSteps = {
     ]
   },
   coughFeverChatbot: {
-    message: "Consult cough/fever chatbot. Continue ORS and zinc drops + cream.",
+    message: "Consult cough/fever chatbot.For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  0.5 ml  (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+   .",
     options: [{ label: "Restart", next: "step1" }]
   },
   step14: {
@@ -144,7 +146,8 @@ const chatbotSteps = {
     ]
   },
   bottleStop: {
-    message: "Stop bottle feeds; use paladai/spoon. Continue ORS and zinc drops + cream.",
+    message: "Stop bottle feeds; use paladai/spoon. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  0.5 ml  (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+   .",
     options: [{ label: "Restart", next: "step1" }]
   },
   bottleNo: {
@@ -168,7 +171,8 @@ const chatbotSteps = {
     ]
   },
   observe16: {
-    message: "Observe 12h. ORS sips + zinc 1 ml daily for 2 weeks + cream. Consult if not voided/tired.",
+    message: "Observe 12h. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  1.0 ml  (20 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+   . Consult if not voided/tired.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step17: {
@@ -179,7 +183,8 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot17: {
-    message: "Consult vomiting chatbot. ORS sips + zinc drops + cream.",
+    message: "Consult vomiting chatbot. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  1.0 ml  (20 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+ 
     options: [{ label: "Restart", next: "step1" }]
   },
   step18: {
@@ -197,7 +202,8 @@ const chatbotSteps = {
     ]
   },
   coughFever19: {
-    message: "Consult cough/fever chatbot. ORS + zinc + cream.",
+    message: "Consult cough/fever chatbot. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  1.0 ml  (20 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+ 
     options: [{ label: "Restart", next: "step1" }]
   },
   step20: {
@@ -208,7 +214,8 @@ const chatbotSteps = {
     ]
   },
   bottleStop20: {
-    message: "Stop bottle feeds; use paladai/spoon. ORS + zinc + cream.",
+    message: "Stop bottle feeds; use paladai/spoon. For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  1.0 ml  (20 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+ 
     options: [{ label: "Restart", next: "step1" }]
   },
   bottleNo20: {
@@ -232,7 +239,8 @@ const chatbotSteps = {
     ]
   },
   observe22: {
-    message: "Observe 12h. ORS + zinc + cream. Consult if issues.",
+    message: "Observe 12h.For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  1.0 ml  (20 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
+ 
     options: [{ label: "Restart", next: "step1" }]
   },
   step23: {
