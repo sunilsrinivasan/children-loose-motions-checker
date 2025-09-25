@@ -397,7 +397,7 @@ const chatbotSteps = {
     options: [{ label: "Restart", next: "step1" }]
   },
   post36: {
-    message: "For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days."
+    message: "For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days.",
     options: [{ label: "Restart", next: "step1" }]
   }
 };
