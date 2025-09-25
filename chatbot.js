@@ -11,7 +11,7 @@ const chatbotSteps = {
     ]
   },
   observe12: {
-    message: "Observe for 12 hours. Give plenty of oral fluids or breast feeds.",
+    message: "Observe for 12 hours. Give plenty of oral fluids or breast feeds. If loose motions> 3, restart",
     options: [{ label: "Restart", next: "step1" }]
   },
 
@@ -104,7 +104,7 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot: {
-    message: "Consult vomiting chatbot. For loose motions: ZIORAL or ZN20 drops 0.5 ml (10 drops) daily for 2 weeks. For rash: apply cream. Continue feeds.",
+    message: "Consult vomiting chatbot. For loose motions: ZIORAL or ZN20 drops 0.5 ml (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day. Continue feeds.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step11: {
