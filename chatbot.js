@@ -105,7 +105,6 @@ const chatbotSteps = {
   },
   vomitChatbot: {
     message: "Consult vomiting chatbot. For loose motions: For Loose motions: Give sips of readymade ORL -S  & ZIORAL or ZN20 drops (zinc)  0.5 ml  (10 drops) daily for 2 weeks. For anal rash: apply Happynap/Ezinap cream 6 times/day.",
-   . Continue feeds.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step11: {
