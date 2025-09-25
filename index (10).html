@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Infant Loose Motions Checker</title>
+  <link rel="stylesheet" href="landing.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="chatbot.js" defer></script>
+  <script type="module" src="app.js" defer></script>
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body class="landing-bg">
+  <nav class="nav">
+    <div class="nav-left">Loose Motions Checker</div>
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#how-it-works">How it works</a>
+      <button id="start-btn" class="nav-button">Start Chat</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Worried about your baby's loose motions?</h1>
+    <p>Get expert pediatric advice instantly. Our quick triage chatbot helps you decide home care or medical attention.</p>
+    <button id="start-btn-hero" class="hero-button">Start Chat</button>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>Developed with pediatric specialists and parent feedback, this tool offers evidence-based recommendations customized by age and symptoms.</p>
+  </section>
+
+  <section id="how-it-works" class="section">
+    <h2>How it works</h2>
+    <p>Answer a few simple questions about your child's symptoms, hydration status, and age. Receive clear guidance on next steps.</p>
+  </section>
+
+  <div id="chat-screen" class="view hidden">
+    <div id="app">
+      <h1>Loose Motions Checker</h1>
+      <div id="chat-container"></div>
+    </div>
+  </div>
+</body>
+</html>
