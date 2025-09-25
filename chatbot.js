@@ -317,7 +317,7 @@ const chatbotSteps = {
     ]
   },
   observe29: {
-    message: "Observe 12h. ORS + ECONORM sachets.",
+    message: "Observe 12h. For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   step30: {
@@ -328,7 +328,7 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot30: {
-    message: "Consult vomiting chatbot. ORS + ECONORM sachets.",
+    message: "Consult vomiting chatbot. For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   step31: {
@@ -346,11 +346,11 @@ const chatbotSteps = {
     ]
   },
   coughFever32: {
-    message: "Consult cough/fever chatbot. ORS + ECONORM sachets.",
+    message: "Consult cough/fever chatbot. For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   post32: {
-    message: "ECONORM sachets (3× daily for 3d) + ORS.",
+    message: "For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
 
@@ -364,7 +364,7 @@ const chatbotSteps = {
   },
   observe33: {
     message:
-      "Observe 12h. ORS + Tab Andial 1×2/day×2d + ECONORM sachets (3× daily for 2d).",
+      "Observe 12h. For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step34: {
@@ -375,7 +375,7 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot34: {
-    message: "Consult vomiting chatbot. ORS + Tab Andial + ECONORM sachets.",
+    message: "Consult vomiting chatbot. For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days.",
     options: [{ label: "Restart", next: "step1" }]
   },
   step35: {
@@ -393,11 +393,11 @@ const chatbotSteps = {
     ]
   },
   coughFever36: {
-    message: "Consult cough/fever chatbot. ORS + Tab Andial + ECONORM sachets.",
+    message: "Consult cough/fever chatbot.For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days.",
     options: [{ label: "Restart", next: "step1" }]
   },
   post36: {
-    message: "ORS + Tab Andial + ECONORM sachets.",
+    message: "For loose motions give sips of ORS-L &  ECONORM ( saccharomyces) sachets 3 times a day for 3d and ANDIAL tablet twice a day x 2 days.",
     options: [{ label: "Restart", next: "step1" }]
   }
 };
