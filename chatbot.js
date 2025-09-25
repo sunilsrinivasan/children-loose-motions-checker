@@ -254,11 +254,11 @@ const chatbotSteps = {
     ]
   },
   coughFever24: {
-    message: "Consult cough/fever chatbot. ORS + zinc + diet + cream.",
+    message: "Consult cough/fever chatbot. For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days,3. anal rash cream HAPPNAP/EZINAP if needed.",
     options: [{ label: "Restart", next: "step1" }]
   },
   post24: {
-    message: "ORS + zinc + diet + cream.",
+    message: "For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days, 3. anal rash cream HAPPNAP/EZINAP if needed.",",
     options: [{ label: "Restart", next: "step1" }]
   },
 
@@ -271,7 +271,7 @@ const chatbotSteps = {
     ]
   },
   observe25: {
-    message: "Observe 12h. ORS + ECONORM sachets (1×2/day for 3d).",
+    message: "Observe 12h. For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days,3.  ECONORM ( saccharomyces) sachets 2/ day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   step26: {
@@ -282,7 +282,7 @@ const chatbotSteps = {
     ]
   },
   vomitChatbot26: {
-    message: "Consult vomiting chatbot. ORS + ECONORM sachets (1×2/day for 3d).",
+    message: "Consult vomiting chatbot. For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days,3.  ECONORM ( saccharomyces) sachets 2/ day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   step27: {
@@ -300,11 +300,11 @@ const chatbotSteps = {
     ]
   },
   coughFever28: {
-    message: "Consult cough/fever chatbot. ORS + ECONORM sachets.",
+    message: "Consult cough/fever chatbot. For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days,3.  ECONORM ( saccharomyces) sachets 2/ day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
   post28: {
-    message: "ECONORM sachets (3× daily for 3d) + ORS.",
+    message: "For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days,3.  ECONORM ( saccharomyces) sachets 2/ day for 3d).",
     options: [{ label: "Restart", next: "step1" }]
   },
 
