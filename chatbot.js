@@ -258,7 +258,7 @@ const chatbotSteps = {
     options: [{ label: "Restart", next: "step1" }]
   },
   post24: {
-    message: "For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days, 3. anal rash cream HAPPNAP/EZINAP if needed.",",
+    message: "For loose motions give 1. sips of ORS-L  2. Zinc drops (ZN20/ZIORAL) 1ml daily x14 days, 3. anal rash cream HAPPNAP/EZINAP if needed.",
     options: [{ label: "Restart", next: "step1" }]
   },
 
