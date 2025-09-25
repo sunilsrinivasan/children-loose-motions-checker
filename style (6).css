@@ -1,0 +1,31 @@
+
+
+/* Tweak 1: Add spacing above chat box */
+#chat-screen {
+  margin-top: 2rem;
+}
+
+/* Tweak 2: Style chatbot option buttons similar to fever chatbot */
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options li {
+  margin: 0.5rem 0;
+}
+
+.options button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.options button + button {
+  margin-left: 0.5rem;
+}
